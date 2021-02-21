@@ -1,9 +1,0 @@
-version: '3'
-services:
-  web:
-    image: apache
-    build: ./webapp
-    container_name: apache_web
-    restart: always
-    ports:
-      - "8080:80"
