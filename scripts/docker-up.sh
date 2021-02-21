@@ -1,7 +1,6 @@
 #!/bin/bash
-echo "$(pwd)"
-echo $(ls)
+echo "Trying to start docker compose"
 cd /home/ubuntu
-echo "After CD"
-echo $(ls)
-docker-compose up
+docker-compose up -d
+echo "Docker compose started"
+#Need to check status of container

@@ -8,3 +8,7 @@ hooks:
     - location: scripts/docker-up.sh
       timeout: 300
       runas: ubuntu
+  ApplicationStop:
+    - location: scripts/docker-stop.sh
+      timeout: 300
+      runas: ubuntu
